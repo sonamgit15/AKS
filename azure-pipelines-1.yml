@@ -6,7 +6,9 @@
 trigger:
 - none
 pr:
-- master
+- branches:
+  include:
+-'*'
 
 pool:
   vmImage: 'ubuntu-latest'
